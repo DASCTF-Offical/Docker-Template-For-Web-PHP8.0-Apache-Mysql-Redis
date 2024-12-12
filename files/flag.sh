@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo $FLAG > /flag
-export FLAG=flag_not_here
-FLAG=flag_not_here
+echo $DASFLAG > /flag
+export DASFLAG=flag_not_here
+DASFLAG=flag_not_here
 rm -f /flag.sh
