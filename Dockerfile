@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:8.0-apache
 COPY files /tmp/files/
 RUN chown -R root:root /var/www/html/ && \
     chmod -R 755 /var/www/html && \
